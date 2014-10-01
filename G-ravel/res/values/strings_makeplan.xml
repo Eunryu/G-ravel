@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Makeplan_CBigArea">큰분류 지역선택</string>
+    <string name="Makeplan_BigArea_memo">여행가실 지역을 선택해 주세요</string>
+    <string name="Makeplan_how">경로 만들방법 고르기</string>
+    <string name="Makeplan_how_memo1">추천경로를 보실지 자신이 경로를 새로 만드실지에 대해 선택하는 단계입니다.</string>
+    <string name="Makeplan_how_memo2">버튼을 눌러 선택하시면 이동합니다.</string>
+    <string name="Makeplan_btnBest">추천경로로 만들기</string>
+    <string name="Makeplan_btnMakeplan">여행경로 직접만들기</string>
+    <string name="Makeplan_CSmallArea">세부지역 지역선택</string>
+    
+    <!-- 추천경로 -->
+    <string name="Makeplan_bestLevel1">추천경로로 만들기 1단계</string>
+    <string name="Makeplan_bestLevel2">추천경로로 만들기 2단계</string>
+    <string name="Makeplan_bestLevel1_memo1">원하시는 분류를 선택해주세요</string>
+    <string name="Makeplan_bestLevel1_btn1">힐링여행</string>
+    <string name="Makeplan_bestLevel1_btn2">체험여행</string>
+    <string name="Makeplan_bestLevel1_btn3">가족여행</string>
+    <string name="Makeplan_bestLevel1_btn4">데이트여행</string>
+    <string name="Makeplan_bestLevel1_btn5"></string>
+    
+</resources>
