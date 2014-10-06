@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_SettingAllMain_menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff393c46"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:textColor="#ff000000" >
+
+            <!-- include -->
+
+            <include
+                android:id="@+id/ic_leftslidemenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/all_slidemenu" />
+        </LinearLayout>
+
+        <!-- slide layout -->
+
+        <LinearLayout
+            android:id="@+id/ll_SettingAllMain_mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <!-- 아래에 깔아두는 레이아웃 -->
+                <LinearLayout
+                    android:id="@+id/ll_SettingAllMenu_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:orientation="vertical"
+                     >
+                     <Button 
+				        android:layout_width="200dp"
+				        android:layout_height="50dp"
+				        android:text="@string/Ring_Setting"
+				        android:id="@+id/btn_SettingGroup_RingSetting"
+				      	android:layout_gravity="center"
+				        />
+				    <Button 
+				        android:layout_width="200dp"
+				        android:layout_height="50dp"
+				        android:text="@string/Setting_openrange"
+				        android:id="@+id/btn_SettingGroup_SettingopenRange"
+				      	android:layout_gravity="center"
+				        />
+				    <Button 
+				        android:layout_width="200dp"
+				        android:layout_height="50dp"
+				        android:text="@string/Exit_Group"
+				        android:id="@+id/btn_SettingGroup_ExitGroup"
+				      	android:layout_gravity="center"
+				        />
+                     </LinearLayout>
+					
+                <!-- 이건 왜있는거지..? -->
+                <LinearLayout
+                    android:id="@+id/ll_SettingAllMenu_empty"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

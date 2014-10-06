@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Side_notice">공지사항</string>
+    <string name="Side_numberList">연락처</string>
+    <string name="Side_freeboard">게시판</string>
+    <string name="Side_daily">일정</string>
+    <string name="Side_setting">모임설정</string>
+    <string name="Side_name">메뉴</string>
+    <string name="None">none</string>
+</resources>

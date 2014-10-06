@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProfileBoard_plusSilde</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 설정 -->
+    <string name="Administor">관리자</string>
+	<string name="Profile_rewrite">프로필 수정</string>
+	<string name="Electronic_BusinessCard">전자명함</string>
+	<string name="Ring_Setting">알림설정</string>
+	<string name="Setting_openrange">내정보 공개범위 설정</string>
+	<string name="Version_CompanyInfo">버전정보/회사소개</string>
+	<string name="Rock_myApp">암호잠금</string>
+	<string name="Exit_profileBoard">프로필보드 탈퇴</string>
+	<string name="Exit_Group">모임탈퇴</string>
+	<string name="OK">완료</string>
+	<string name="MyName">이름</string>
+    <string name="MyPhone">전화번호</string>
+    <string name="MyAddress">주소</string>
+    <string name="MyEmail">이메일</string>
+    <string name="MyWork">직장명</string>
+    <string name="MySchool">고등학교명</string>
+    <string name="MyCollage">대학명</string>
+    <string name="Mybirth">출신지</string>
+    <string name="MyWeb">자기 웹사이트</string>
+    <string name="MybirthDay">생년월일</string>
+    <string name="Mygender">성별</string>
+    <string name="Mynblood">혈액형</string>
+    <string name="Mylanguege">할줄아는 언어</string>
+    <string name="MaritalStatus">결혼여부</string>
+    <string name="MyInfomation">내소개</string>
+    <string name="Myliketitle">좋아하는 문구</string>
+    <string name="This_version">현재버전</string>
+    <string name="New_version">최신버전</string>
+    <string name="Update">업데이트</string>
+    <string name="Company_name">(주) 오제이월드</string>
+    <string name="Company_address">건국대학교 입학정보관</string>
+    <string name="Company_Email">ojworld2013@gmail.com</string>
+    <string name="Company_URL">http://www.ojworld.com</string>
+    <string name="Company_Master">서철욱</string>
+    <string name="Info_Master">대표이사 :</string>
+    <string name="Info_Address">주소 :</string>
+    <string name="Info_Email">E-mail 문의 :</string>
+    <string name="Info_URL">홈페이지 :</string>
+    <string name="RockOnOff">암호잠금</string>
+    <string name="ChangeAppRockKey">암호 변경하기</string>
+    <string name="Setting_noticeBell">공지알림</string>
+    <string name="Setting_dailyBell">일정알림</string>
+    <string name="Setting_freeboardBell">게시글 알림</string>
+    <string name="Save_in_mygallery">전자명함 이미지로 저장</string>
+    <string name="Into_password">암호입력</string>
+    <string name="Into_password_information">암호를 입력해주세요.</string>
+    <string name="Cancle">취소</string>
+    <string name="Delete">삭제</string>
+    <string name="Change">변경</string>
+
+</resources>

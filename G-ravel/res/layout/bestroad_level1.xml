@@ -17,8 +17,32 @@
     <Button 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Makeplan_bestLevel1_btn1"
+        android:text="@string/Makeplan_bestLevel1_Healing"
         android:id="@+id/btn_BestRoadLevel1_Healing"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_bestLevel1_Family"
+        android:id="@+id/btn_BestRoadLevel1_Family"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_bestLevel1_work"
+        android:id="@+id/btn_BestRoadLevel1_work"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_bestLevel1_Date"
+        android:id="@+id/btn_BestRoadLevel1_Date"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Makeplan_bestLevel1_SeeArea"
+        android:id="@+id/btn_BestRoadLevel1_SeeArea"
         />
 
 </LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_SettingAllMain_menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff393c46"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:textColor="#ff000000" >
+
+            <!-- include -->
+
+            <include
+                android:id="@+id/ic_leftslidemenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/all_slidemenu" />
+        </LinearLayout>
+
+        <!-- slide layout -->
+
+        <LinearLayout
+            android:id="@+id/ll_SettingAllMain_mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <!-- 아래에 깔아두는 레이아웃 -->
+                <LinearLayout
+                    android:id="@+id/ll_SettingAllMenu_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:orientation="vertical"
+                     >
+                     <LinearLayout 
+				        android:layout_width="match_parent"
+				        android:layout_height="48dp"
+				        android:orientation="horizontal"
+				        >
+				        <Spinner 
+				            android:layout_width="100dp"
+				            android:layout_height="wrap_content"
+				            android:id="@+id/sp_NoticeMain_searchSpinner"
+				            />
+                         <EditText 
+                             android:layout_width="150dp"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/edt_NoticeMain_searchTitle"
+                             />
+                         <Button 
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="검색"
+                             android:id="@+id/btn_NoticeMain_search"
+                             />
+                     </LinearLayout>
+					<ListView 
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:id="@+id/lv_NoticeMain_MainList"
+					    ></ListView>
+                </LinearLayout>
+				
+                <!-- 이건 왜있는거지..? -->
+                <LinearLayout
+                    android:id="@+id/ll_SettingAllMenu_empty"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </LinearLayout>
+        <fragment 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:name="com.example.profileboard_plussilde_static.Notice_fragment"
+		    android:id="@+id/fg_NoticeMain_frag"
+		    />
+    </FrameLayout>
+</LinearLayout>

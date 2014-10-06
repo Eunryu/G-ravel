@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Title">제목 </string>
+    <string name="Date">날짜 </string>
+    <string name="Writer">작성자 </string>
+    <string name="Message">내용 </string>
+    <string name="AddPicture">사진첨부</string>
+    <string name="WriteEnd">확인</string>
+    <string name="Notice_range">공지범위 </string>
+    <string name="Notice_templet">템플릿 </string>
+</resources>
