@@ -9,7 +9,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ViewFlipper;
 
-
+//현재 이 예제는 버튼누르면 앞뒤로 왔다갔다 하게만 해놨음.
+//인터넷 찾아보니 아직도 탭 호스트를 쓰는 모양... 곧 사라진다 들은거 같은데..
+//회의때 다른 방법이 있나 다같이 찾아보도록 할 예정.
 public class MainActivity extends Activity {
 
     @Override
