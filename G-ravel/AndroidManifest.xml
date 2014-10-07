@@ -22,6 +22,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name="com.example.g_ravel.Login"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel.Agreement"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel.JoinWrite"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel.CheckMe"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel.IdpwSearch"
+            ></activity>
     </application>
 
 </manifest>

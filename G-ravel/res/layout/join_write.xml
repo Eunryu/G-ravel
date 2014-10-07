@@ -21,7 +21,7 @@
             />
         <EditText 
             android:hint="@string/join_write_id"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_JoinWrite_id"
             />
@@ -44,7 +44,7 @@
             />
         <EditText 
             android:hint="@string/join_write_pw"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_JoinWrite_pw"
             />
@@ -61,7 +61,7 @@
             />
         <EditText 
             android:hint="@string/join_write_id"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_JoinWrite_pw2"
             />
@@ -84,7 +84,7 @@
             />
         <EditText 
             android:hint="@string/join_write_nickname"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_JoinWrite_nickname"
             />
@@ -106,21 +106,21 @@
             android:text="@string/join_write_phone"
             />
         <EditText 
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxEms="3"
             android:hint="@string/join_write_phone"
             android:id="@+id/edt_JoinWrite_phone1"
             />
         <EditText 
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxEms="4"
             android:hint="@string/join_write_phone"
             android:id="@+id/edt_JoinWrite_phone2"
             />
         <EditText 
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxEms="4"
             android:hint="@string/join_write_phone"
@@ -144,7 +144,7 @@
             android:text="@string/join_write_email"
             />
         <EditText 
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/join_write_email"
             android:id="@+id/edt_JoinWriter_email1"
@@ -155,7 +155,7 @@
             android:text="@string/join_write_e"
             />
         <EditText 
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/join_write_email"
             android:id="@+id/edt_JoinWriter_email2"
