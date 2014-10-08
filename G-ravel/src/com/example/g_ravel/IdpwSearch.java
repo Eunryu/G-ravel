@@ -2,27 +2,42 @@ package com.example.g_ravel;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TabHost;
-import android.widget.TabHost.TabSpec;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
-public class IdpwSearch extends Activity{
+public class IdpwSearch extends Activity implements OnClickListener{
 
+	private View v[] = new View[2];
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.search_idpw);
 		
-		//탭구현
-		TabHost tabHost = (TabHost)findViewById(R.id.tabhost);
-		tabHost.setup();
+		//버튼선언
+		Button idSearch = (Button)findViewById(R.id.btn_IdpwSearch_idSearchTitle);
+		Button pwSearch = (Button)findViewById(R.id.btn_IdpwSearch_pwSearchTitle);
 		
-		TabSpec spec1 = tabHost.newTabSpec("Tab1").setContent(R.id.tab1).setIndicator("id 찾기");
-		tabHost.addTab(spec1);
-		TabSpec spec2 = tabHost.newTabSpec("Tab2").setContent(R.id.tab2).setIndicator("pw 찾기");
-		tabHost.addTab(spec2);
+		v[0] = findViewById(R.id.ic_IdpwSearch_idSearch);
+		v[1] = findViewById(R.id.ic_IdpwSearch_pwSearch);
 		
-		tabHost.getTabWidget().getChildAt(0).getLayoutParams().height = 50;
-		tabHost.getTabWidget().getChildAt(1).getLayoutParams().height = 50;
+		//초기상태
+		v[0].setVisibility(View.VISIBLE);
+		v[1].setVisibility(View.INVISIBLE);
+		
+		idSearch.setOnClickListener(this);
+		pwSearch.setOnClickListener(this);
+	}
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		if(v.getId() == R.id.btn_IdpwSearch_idSearchTitle){
+			this.v[0].setVisibility(View.VISIBLE);
+			this.v[1].setVisibility(View.INVISIBLE);
+		}else if(v.getId() == R.id.btn_IdpwSearch_pwSearchTitle){
+			this.v[0].setVisibility(View.INVISIBLE);
+			this.v[1].setVisibility(View.VISIBLE);
+		}
 	}
 }

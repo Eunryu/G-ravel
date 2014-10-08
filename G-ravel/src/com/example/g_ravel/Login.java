@@ -39,7 +39,9 @@ public class Login extends Activity implements OnClickListener{
 			Intent go_idpwSearch = new Intent(Login.this,IdpwSearch.class);
 			startActivity(go_idpwSearch);
 		}else if(v.getId() == R.id.btn_Login_login){
-			
+			Intent go_main = new Intent(Login.this,MemberMain.class);
+			startActivity(go_main);
+			finish();
 		}else if(v.getId() == R.id.btn_Login_nonlogin){
 			
 		}

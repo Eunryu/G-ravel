@@ -4,101 +4,44 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-    <TabHost 
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/tabhost"
-        >
-        <TabWidget 
+        <TableLayout 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tabs"
-            android:tabStripEnabled="true"
-            />
-        <FrameLayout 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/tabcontent"
+            android:stretchColumns="0"
             >
-            <LinearLayout 
+            <TableRow 
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/tab1"
-                android:orientation="vertical"
+                android:layout_height="wrap_content"
                 >
-                <TextView 
-                    android:layout_width="wrap_content"
+                <Button 
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Search_id_title"
+                    android:id="@+id/btn_IdpwSearch_idSearchTitle"
                     />
-                <LinearLayout 
+                <Button 
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/Search_eamil"
-                        android:layout_marginRight="5dp"
-                        />
-                    <EditText 
-                        android:hint="@string/Search_exampleEmail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/et_IdpwSearch_IdEm"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout 
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/tab2"
-                android:orientation="vertical"
-                >
-                <TextView 
-                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/Search_pw_title"
+                    android:id="@+id/btn_IdpwSearch_pwSearchTitle"
                     />
-                <LinearLayout 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/Search_id"
-                        android:layout_marginRight="5dp"
-                        />
-                    <EditText 
-                        android:hint="@string/Search_exampleEmail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/et_IdpwSearch_id"
-                        />
-                </LinearLayout>
-                <LinearLayout 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
-                    <TextView 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/Search_eamil"
-                        android:layout_marginRight="5dp"
-                        />
-                    <EditText 
-                        android:hint="@string/Search_exampleEmail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/et_IdpwSearch_PwEm"
-                        />
-                </LinearLayout>
-            </LinearLayout>
+            </TableRow>
+        </TableLayout>
+        <FrameLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <include 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ic_IdpwSearch_idSearch"
+                layout="@layout/include_searchidpw_id"
+                />
+            <include 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ic_IdpwSearch_pwSearch"
+                layout="@layout/include_searchidpw_pw"
+                />
         </FrameLayout>
-    </TabHost>
-
 </LinearLayout>
