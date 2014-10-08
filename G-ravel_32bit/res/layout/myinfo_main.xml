@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyInfo_title"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyInfo_seeMyinfo"
+        android:id="@+id/btn_MyInfo_seeMyinfo"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyInfo_oftenArea"
+        android:id="@+id/btn_MyInfo_oftenArea"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyInfo_travelRecord"
+        android:id="@+id/btn_MyInfo_travelRecord"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MyInfo_Mystamp"
+        android:id="@+id/btn_MyInfo_Mystamp"
+        />
+
+</LinearLayout>
