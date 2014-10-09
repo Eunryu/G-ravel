@@ -33,7 +33,9 @@ public class ChoosePlanhow extends Activity implements OnClickListener{
 			startActivity(go_next);
 			finish();
 		}else if(v.getId() == R.id.btn_ChoosePlanhow_Makeplan){
-			
+			Intent go_next2 = new Intent(ChoosePlanhow.this,MakeRoadLevel1.class);
+			startActivity(go_next2);
+			finish();
 		}
 	}
 }

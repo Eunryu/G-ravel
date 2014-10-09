@@ -62,6 +62,42 @@
         <activity 
             android:name="com.example.g_ravel_goTravel.BestRoadLevel5"
             ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel.MakeRoadLevel1"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel.MakeRoadLevel2"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel.MakeRoadLevel3"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel.MakeRoadLevel4"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_travelNote_event.Event_info"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_travelNote_event.Event_main"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_travelNote_event.TravelNote_main"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_main"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_myStamp"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_oftenArea"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_see"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_travelRecord"
+            ></activity>
     </application>
 
 </manifest>
