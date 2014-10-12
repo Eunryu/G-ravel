@@ -75,28 +75,52 @@
             android:name="com.example.g_ravel_goTravel.MakeRoadLevel4"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_travelNote_event.Event_info"
+            android:name="com.example.g_ravel_travelNote_event.Event_info"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_travelNote_event.Event_main"
+            android:name="com.example.g_ravel_travelNote_event.Event_main"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_travelNote_event.TravelNote_main"
+            android:name="com.example.g_ravel_travelNote_event.TravelNote_main"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_main"
+            android:name="com.example.g_ravel_myinfo.Myinfo_main"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_myStamp"
+            android:name="com.example.g_ravel_myinfo.Myinfo_myStamp"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_oftenArea"
+            android:name="com.example.g_ravel_myinfo.Myinfo_oftenArea"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_see"
+            android:name="com.example.g_ravel_myinfo.Myinfo_see"
             ></activity>
         <activity 
-            android:name="com.example.g_ravel_goTravel_myinfo.Myinfo_travelRecord"
+            android:name="com.example.g_ravel_myinfo.Myinfo_travelRecord"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_tip.TipEvent"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_tip.TipEvent_info"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_tip.Tip_main"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_tip.TravelTip"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_tip.UsefulArea"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_setting.AppNotice"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_setting.Setting_main"
+            ></activity>
+        <activity 
+            android:name="com.example.g_ravel_travelNote_event.TravelNote_Read"
             ></activity>
     </application>
 

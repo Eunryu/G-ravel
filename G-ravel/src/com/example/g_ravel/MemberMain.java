@@ -1,9 +1,11 @@
 package com.example.g_ravel;
 
 import com.example.g_ravel_goTravel.ChooseBigArea;
-import com.example.g_ravel_goTravel_myinfo.Myinfo_main;
-import com.example.g_ravel_goTravel_travelNote_event.Event_main;
-import com.example.g_ravel_goTravel_travelNote_event.TravelNote_main;
+import com.example.g_ravel_myinfo.Myinfo_main;
+import com.example.g_ravel_setting.Setting_main;
+import com.example.g_ravel_tip.Tip_main;
+import com.example.g_ravel_travelNote_event.Event_main;
+import com.example.g_ravel_travelNote_event.TravelNote_main;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -54,12 +56,14 @@ public class MemberMain extends Activity implements OnClickListener{
 		}else if(v.getId() == R.id.btn_Member_G_map){
 			
 		}else if(v.getId() == R.id.btn_Member_Tips){
-			
+			Intent go_tip = new Intent(MemberMain.this,Tip_main.class);
+			startActivity(go_tip);
 		}else if(v.getId() == R.id.btn_Member_event){
 			Intent go_event = new Intent(MemberMain.this,Event_main.class);
 			startActivity(go_event);
 		}else if(v.getId() == R.id.btn_Member_setting){
-			
+			Intent go_setting = new Intent(MemberMain.this,Setting_main.class);
+			startActivity(go_setting);
 		}else if(v.getId() == R.id.btn_Member_myinfo){
 			Intent go_myinfo = new Intent(MemberMain.this,Myinfo_main.class);
 			startActivity(go_myinfo);
